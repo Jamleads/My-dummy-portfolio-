@@ -1,0 +1,134 @@
+/* color1: #2c2c6c;
+color2: #1f1f38;
+color3: #4db5ff;
+color5: #007aff;
+} */
+
+body {
+    background-color: #1f1f38;
+    font-family: 'lato', sans-serif;
+    font-weight: 400;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+li {
+    list-style: none;
+}
+.name {
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+    color: #007aff;
+}
+#myname.name h1 i {
+    color: #00ff95;
+}
+.btnM {
+    border: 1px solid #4db5ff;
+    color: #007aff;
+}
+.btn2 {
+    background-color: #5cb5f4;
+    color: white;
+}
+.btnM:hover {
+    background-color: white;
+    color: #007aff;
+}
+#img-template {
+    background: linear-gradient(
+        to right bottom,  
+        #00ff95, 
+        #4db5ff),
+        url(..//img/Adetunji.jpeg);
+    border-top-left-radius: 230px;
+    border-top-right-radius: 230px;
+}
+#img {
+    border-top-left-radius: 210px;
+    border-top-right-radius: 210px;
+}
+.aboutMe img {
+    border-radius: 50px;
+}
+#stack {
+    background-color: #45a8ee;
+    border: none;
+    border-radius: 20px;
+}
+#stack img {
+    border-radius: 20px;
+}
+.experience-side1, #reviews {
+    background-color: #2c2c6c;
+    border-radius: 50px;
+}
+.experience-side1:hover {
+    border: 1px solid  #4db5ff;
+    background: none;
+}
+h2, .fa-solid {
+    color: #4db5ff;
+    margin-top: -20px;
+}
+
+.detail {
+    color: rgb(176, 164, 164);
+}
+.content {
+    border: 1px solid  #4db5ff;
+    background-color: #2c2c6c;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.content:hover {
+    background-color: transparent;
+}
+.title {
+    padding: 35px;
+    background-color: #4db5ff;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+.content li svg {
+    color: #4db5ff;
+}
+#card {
+    background-color: #2c2c6c;
+    border: none;
+    border-radius: 20px;
+}
+
+input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    background-color: transparent;
+    border: 1px solid #4db5ff;
+    border-radius: 10px;
+    outline: none;
+}
+
+.footer {
+    background-color: #4db5ff;
+}
+.footer ul li {
+    font-size: 20px;
+    font-weight: 500;
+}
+.footer h3 i {
+    color: #00ff95 !important;
+    font-size: 40px;
+}
+.social-icon {
+    border-radius: 10px;
+}
+.footer p {
+    text-align: center;
+    font-weight: 100;
+    font-size: smaller;
+    color: black;
+    margin-bottom: 30px;
+}
